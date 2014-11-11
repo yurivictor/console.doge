@@ -1,5 +1,5 @@
 # Console.doge
-Makes pretty colors and says stuff in the console in like one browser, probably Chrome. So there's that.
+Makes pretty colors and says stuff in the console in like one browser, probably Chrome.
 
 _What is it good for? Absolutely nothing._
 
