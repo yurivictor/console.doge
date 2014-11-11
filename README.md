@@ -17,3 +17,6 @@ console.doge( {
 } );
 </script>
 ```
+
+## What does it look like
+![i'm a picture of a console](example.png)
