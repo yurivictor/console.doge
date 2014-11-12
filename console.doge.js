@@ -10,7 +10,7 @@ var Doge = function ( options ) {
   this.fontcolor = options.fontcolor ||  this.random( this.colors() );
   this.fontsize = options.fontsize || '100px';
 
-  console.log( "%c" + this.text, "color:" + this.fontcolor + "; font-size:" + this.fontsize + ";" );
+  console.log( "%c" + this.text, "color:" + this.fontcolor + "; font-size:" + this.fontsize + "; font-family:'Comic Sans MS'" );
 };
 
 Doge.prototype = {
