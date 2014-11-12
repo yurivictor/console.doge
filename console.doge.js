@@ -1,5 +1,9 @@
 /*! console.doge v0.0.0 | (c) MIT 2014 Yuri Victor */
 var Doge = function ( options ) {
+  if( typeof console === 'undefined' ) {
+    return false;
+  }
+
   if ( typeof( options ) === 'string' ) {
     options = { text : options };
   }
@@ -37,6 +41,11 @@ Doge.prototype = {
     return input[ Math.floor( Math.random() * input.length ) ];
   }
 };
+
+if(typeof console === 'undefined') {
+  var console = {}
+  console.log = function() {};
+}
 
 console.doge = function ( options ) {
   return new Doge( options );
